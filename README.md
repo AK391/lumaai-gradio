@@ -34,7 +34,6 @@ gr.load(
 
 Run the Python file, and you should see a Gradio Interface connected to LumaAI!
 
-![ChatInterface](chatinterface.png)
 
 # Customization 
 
@@ -52,7 +51,6 @@ gr.load(
     examples=["A serene lake at sunset", "A futuristic cityscape"]
 ).launch()
 ```
-![ChatInterface with customizations](chatinterface_with_customization.png)
 
 # Composition
 
