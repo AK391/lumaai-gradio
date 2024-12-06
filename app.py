@@ -1,7 +1,7 @@
 import gradio as gr
-import openai_gradio
+import lumaai_gradio
 
 gr.load(
-    name='gpt-4o-2024-11-20',
-    src=openai_gradio.registry,
+    name='dream-machine',
+    src=lumaai_gradio.registry,
 ).launch()
